@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  0.7px solid var(--color-lightestGrey);
+    padding: 8px;
+    .search{
+        display: flex;
+        border: 0.5px solid var(--color-black);
+        padding: 5px;
+        margin-left: 20px;
+        
+        input{
+            border: none;
+            outline: none;
+        }
+    }
+    
+    .rightMenu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .item{
+            display: flex;
+            align-items: center;
+            position: relative;
+            cursor: pointer;
+            .counter{
+                background-color: red;
+                color: white;
+                border: 0.5px solid var(--color-black);
+                width: 15px;
+                height: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                font-size: small;
+                position: absolute;
+                top: -5px;
+                right: -5px;
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,53 @@
+.sidebar{
+    border-right: 0.7px solid var(--color-lightestGrey);
+    flex: 1;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .title{
+            color: var(--color-green);
+            padding: 10px;
+        }
+
+    } 
+
+    hr{
+        border : 0.7px solid var(--color-lightestGrey);
+    }
+
+
+    .mid{
+        padding-left: 10px;
+        ul{
+            padding: 5px;
+            list-style: none;
+            .title{
+                color: var(--color-lighterGrey);
+                font-weight: bold;
+            }
+            li{
+                padding: 5px;
+                margin-left: 3px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                .icon{
+                    font-size: 20px;
+                    margin-right: 7px;
+                    color: var(--color-green);
+                }
+
+                &:hover{
+                    background-color: var(--color-blue);
+              
+                }
+            }
+        }
+    }
+}
+
+
+
